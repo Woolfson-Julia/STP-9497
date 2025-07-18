@@ -2,21 +2,97 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&family=Iceberg&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      media="all"
+    />
+    <title>Space Rush - Reflex Orbit Survival Game | Play Now on Android</title>
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Test your reflexes in Space Rush - a minimalist orbit survival game where
+    one tap keeps your shooting star alive. Dodge sharp turns, collect baits,
+    and climb the leaderboard. Fast, clean, and addictive."
+    />
+    <meta
+      name="keywords"
+      content="Space Rush, orbit game, reflex game, one-tap arcade, mobile game, Android
+    survival game, minimalist game, offline mobile game, fast gameplay,
+    leaderboard challenge, orbital arcade, tap to play game."
+    />
+
+    <!-- Open Graph (Facebook, etc.) -->
+    <meta
+      property="og:title"
+      content="Space Rush - Reflex Orbit Survival Game"
+    />
+    <meta
+      property="og:description"
+      content="Keep your star in motion through a cosmic challenge of speed and precision.
+    Simple to play, hard to master. Play Space Rush offline and test your
+    limits."
+    />
+    <!-- (Змініть шлях відповідно до
+    вашого фактичного зображення для соцмереж) -->
+    <meta
+      property="og:image"
+      content="https://rushtrack.space/assets/og-image.jpg"
+    />
+    <meta property="og:url" content="https://rushtrack.space" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Space Rush - Reflex Orbit Survival Game"
+    />
+    <meta
+      name="twitter:description"
+      content="Orbit, tap, and survive in this high-speed mobile challenge. One-touch gameplay meets cosmic visuals."
+    />
+    <meta
+      name="twitter:image"
+      content="https://rushtrack.space/assets/og-image.jpg"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
+
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <load src="./partials/header.html" />
 
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <load src="./partials/hero.html" />
+      <load src="./partials/about.html" />
+      <load src="./partials/how-to-play.html" />
+      <load src="./partials/core-features.html" />
+      <load src="./partials/game-modes.html" />
+      <load src="./partials/visual-style.html" />
+      <load src="./partials/screenshots.html" />
+      <load src="./partials/leaderboard.html" />
+      <load src="./partials/player-testimonials.html" />
+      <load src="./partials/faq.html" />
+      <load src="./partials/game-info.html" />
+      <load src="./partials/contact.html" />
     </main>
 
     <load src="./partials/footer.html" />
+    <load src="./partials/menu-modal.html" />
+    <load src="./partials/cookies-modal.html" />
 
     <script type="module" src="./main.js"></script>
   </body>
