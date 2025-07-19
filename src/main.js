@@ -1,2 +1,3 @@
-import './js/burgerMenu';
+import './js/menu-modal';
 import './js/faqAccordion';
+
