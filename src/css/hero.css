@@ -1,3 +1,7 @@
+.hero-section {
+  padding-top: 88px;
+  padding-bottom: 20px;
+}
 .hero-container {
   width: 100%;
   display: flex;
@@ -70,6 +74,8 @@
 
 @media screen and (min-width: 1200px) {
   .hero-section {
+    padding-top: 112px;
+    padding-bottom: 64px;
     width: 100%;
     flex-shrink: 0;
   }
