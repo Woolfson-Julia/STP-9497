@@ -1,0 +1,23 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M4 16h24M4 8h24M4 24h24"></path>
+</symbol>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path d="M8.533 25.334l-1.866-1.867 7.466-7.467-7.466-7.466 1.866-1.867 7.467 7.467 7.467-7.467 1.866 1.867-7.466 7.466 7.466 7.467-1.866 1.867-7.467-7.467-7.467 7.467z"></path>
+</symbol>
+<symbol id="icon-accordion" viewBox="0 0 32 32">
+<path fill="#f8f8f2" style="fill: var(--color1, #f8f8f2)" d="M1.5 9.999l2.5-1.999 11.989 13 12.011-13 2.5 1.999-14.511 15.001-14.489-15.001z"></path>
+</symbol>
+<symbol id="icon-arrow" viewBox="0 0 29 32">
+<path d="M24.667 16l-6.667-4v3.395l-12.667 0.329v0.5l12.667 0.331v3.444l6.667-4z"></path>
+</symbol>
+<symbol id="icon-back-to-link" viewBox="0 0 32 32">
+<path fill="#767673" style="fill: var(--color2, #767673)" d="M16.848 15.152l12 12-1.696 1.696-11.152-11.152-11.152 11.152-1.696-1.696 12.848-12.85 0.848 0.85z"></path>
+<path fill="#767673" style="fill: var(--color2, #767673)" d="M16.848 3.152l12 12-1.696 1.696-11.152-11.152-11.152 11.152-1.696-1.696 12.848-12.85 0.848 0.85z"></path>
+</symbol>
+<symbol id="icon-back" viewBox="0 0 32 32">
+<path d="M20 26l-8-10 8-10z"></path>
+</symbol>
+</defs>
+</svg>
