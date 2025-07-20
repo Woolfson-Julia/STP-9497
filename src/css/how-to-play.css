@@ -1,0 +1,64 @@
+.how-to-play-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-to-play-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  color: #131734;
+  margin-bottom: 12px;
+}
+.how-to-play-second-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 24px;
+}
+.how-to-play-img-mobile {
+  margin-bottom: 24px;
+}
+.how-to-play-img-desktop {
+  display: none;
+}
+.how-to-play-text-first {
+  margin-bottom: 16px;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .how-to-play-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .how-to-play-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+  }
+
+  .how-to-play-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  .how-to-play-second-title {
+    line-height: 1.25;
+  }
+  .how-to-play-img-desktop {
+    display: block;
+  }
+  .how-to-play-img-mobile {
+    display: none;
+  }
+  .how-to-play-text-first {
+    margin-bottom: 24px;
+  }
+}
