@@ -34,7 +34,7 @@
 .faq-question {
   width: 100%;
   padding: 16px 20px;
-  background: #131734;
+  background: #0f1322;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -51,13 +51,14 @@
   background: #29345d;
 }
 
-.faq-question[aria-expanded='true'] .faq-icon {
-  transform: rotate(90deg);
-}
-
 .faq-icon {
+  transform: rotate(90deg);
   transition: transform 0.2s;
   flex-shrink: 0;
+}
+
+.faq-question[aria-expanded='true'] .faq-icon {
+  transform: rotate(0deg);
 }
 
 .faq-question span {
