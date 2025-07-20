@@ -1,0 +1,115 @@
+.cookies-popup-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.cookies-popup {
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #0f1322;
+}
+.cookies-title {
+  display: flex;
+  color: #f8f8f2;
+  font-family: Iceberg;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 75% */
+  letter-spacing: 0.16px;
+}
+
+.cookies-txt {
+  display: block;
+  color: #f8f8f2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.cookies-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.cookies-popup button {
+  display: flex;
+  width: 276px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+}
+.accept-cookies-btn {
+  background: #f8f8f2;
+  color: #0f1322;
+}
+.decline-cookies-btn {
+  background: none;
+  border: 1px solid #e0b7b7;
+  color: #f8f8f2;
+}
+.accept-cookies-btn:hover {
+  font-weight: 600;
+}
+.decline-cookies-btn:hover {
+  border: 1px solid #f8f8f2;
+}
+@media screen and (min-width: 1200px) {
+  .cookies-popup {
+    width: 100%;
+    height: 292px;
+    padding: 64px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    background-image: image-set(
+      url('../img/cookies-modal/cookies-modal@1x.png') 1x,
+      url('../img/cookies-modal/cookies-modal@2x.png') 2x
+    );
+    background-position: 831px 64px;
+    background-repeat: no-repeat;
+    background-size: 239px 171px;
+  }
+  .cookies-title {
+    font-size: 32px;
+    line-height: 24px; /* 75% */
+    letter-spacing: 0.16px;
+  }
+  .cookies-txt {
+    width: 448px;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+  }
+  .cookies-btn-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .cookies-popup button {
+    width: 212px;
+    height: 48px;
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
