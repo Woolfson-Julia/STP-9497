@@ -26,6 +26,6 @@ const swiperProjects = new Swiper('[data-swiper="player"]', {
     slideChange: updateNavState,
   },
   breakpoints: {
-    1200: { slidesPerView: 3, spaceBetween: 23 },
+    1200: { slidesPerView: 3, spaceBetween: 22 },
   },
 });
