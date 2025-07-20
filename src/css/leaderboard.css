@@ -1,0 +1,59 @@
+.leaderboard-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #131734;
+  margin-bottom: 12px;
+}
+.leaderboard-second-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 24px;
+}
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.leaderboard-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  width: 288px;
+}
+.leaderboard-img {
+  width: 56px;
+  height: 56px;
+}
+
+@media screen and (min-width: 1200px) {
+  .leaderboard-title {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .leaderboard-second-title {
+    text-align: center;
+    line-height: 1.25;
+  }
+  .leaderboard-list {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+  }
+  .leaderboard-item {
+    gap: 24px;
+    width: 356px;
+  }
+  .leaderboard-img {
+    width: 96px;
+    height: 96px;
+  }
+}
