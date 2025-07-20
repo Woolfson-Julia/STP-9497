@@ -1,0 +1,64 @@
+.game-modes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-modes-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  color: #131734;
+  margin-bottom: 12px;
+}
+.game-modes-second-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 24px;
+}
+.game-modes-img-mobile {
+  margin-bottom: 24px;
+}
+.game-modes-img-desktop {
+  display: none;
+}
+.game-modes-text-first {
+  margin-bottom: 16px;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .game-modes-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .game-modes-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+  }
+
+  .game-modes-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  .game-modes-second-title {
+    line-height: 1.25;
+  }
+  .game-modes-img-desktop {
+    display: block;
+  }
+  .game-modes-img-mobile {
+    display: none;
+  }
+  .game-modes-text-first {
+    margin-bottom: 24px;
+  }
+}
