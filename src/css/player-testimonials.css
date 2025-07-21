@@ -52,16 +52,17 @@
 }
 .player-testimonials-swiper-list {
   display: flex;
+  height: 48px;
 }
 
 .player-testimonials-svg-right {
   transform: rotate(180deg);
 }
 [data-nav].is-disabled {
-  opacity: 0.4;
+  opacity: 0.5;
   pointer-events: none;
   cursor: default;
-  color: #767673;
+  color:#808080;
 }
 
 @media screen and (min-width: 1200px) {

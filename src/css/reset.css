@@ -24,6 +24,7 @@ p:last-child {
 a {
   text-decoration: none;
   color: inherit;
+  font-style: normal;
 }
 
 button {
