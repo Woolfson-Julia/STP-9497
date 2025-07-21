@@ -1,0 +1,49 @@
+.contact-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #131734;
+  margin-bottom: 12px;
+}
+.contact-second-title {
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 24px;
+}
+.contact-text {
+  margin-bottom: 16px;
+}
+.contact-address {
+  font-style: normal;
+}
+.contact-link {
+  font-weight: 700;
+}
+@media screen and (min-width: 1200px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-title {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .contact-second-title {
+    text-align: center;
+    line-height: 1.25;
+  }
+  .contact-content {
+    text-align: center;
+    width: 384px;
+  }
+  .contact-text {
+    margin-bottom: 24px;
+  }
+}
