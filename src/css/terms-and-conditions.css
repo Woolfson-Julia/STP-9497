@@ -1,15 +1,15 @@
-.privacy-section {
+.terms-and-conditions-section {
   padding-top: 76px;
   padding-bottom: 40px;
 }
-.privacy-container {
+.terms-and-conditions-container {
   position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.privacy-title {
+.terms-and-conditions-title {
   position: relative;
   z-index: 1;
   font-family: 'Iceberg', sans-serif;
@@ -20,7 +20,7 @@
   color: #131734;
   margin-bottom: 76px;
 }
-.privacy-title::before {
+.terms-and-conditions-title::before {
   content: '';
   position: absolute;
   top: -53px;
@@ -33,28 +33,32 @@
   background-size: contain;
   z-index: -1;
 }
-.privacy-text {
+.terms-and-conditions-text {
   letter-spacing: 0.01em;
   color: #0f1322;
   margin-bottom: 16px;
 }
-.privacy-list {
+.terms-and-conditions-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
   color: #0f1322;
 }
-.privacy-item-title {
+.terms-and-conditions-item-title {
   font-weight: 400;
   font-size: 16px;
   color: #0f1322;
   margin-bottom: 16px;
 }
-.privacy-list-second li {
+.terms-and-conditions-list-second {
+margin-bottom: 16px;
+}
+.terms-and-conditions-list-second li {
   position: relative;
   padding-left: 24px;
 }
-.privacy-list-second li::before {
+
+.terms-and-conditions-list-second li::before {
   content: '•';
   position: absolute;
   left: 0.5em;
@@ -63,25 +67,14 @@
   font-size: 1.2em;
   line-height: 1.5;
 }
-
-.privacy-list-third li {
+.terms-and-conditions-list-fourth {
+  margin-bottom: 16px;
+}
+.terms-and-conditions-list-fourth li {
   position: relative;
   padding-left: 24px;
 }
-.privacy-list-third li::before {
-  content: '•';
-  position: absolute;
-  left: 0.5em;
-  top: 0;
-  color: #0f1322;
-  font-size: 1em;
-  line-height: 1.5;
-}
-.privacy-list-fourth li {
-  position: relative;
-  padding-left: 24px;
-}
-.privacy-list-fourth li::before {
+.terms-and-conditions-list-fourth li::before {
   content: '•';
   position: absolute;
   left: 0.5em;
@@ -90,34 +83,36 @@
   font-size: 1em;
   line-height: 1.5;
 }
-.privacy-link {
+.terms-and-conditions-link {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #00f;
 }
-.privacy-list-third-last-item {
+.terms-and-conditions-list-third-last-item {
   margin-bottom: 16px;
 }
 
-
 @media screen and (min-width: 1200px) {
-  .privacy-section {
+  .terms-and-conditions-section {
     padding-top: 116px;
     padding-bottom: 64px;
   }
-  .privacy-title {
+  .terms-and-conditions-title {
   margin-bottom: 92px;
 }
-.privacy-text {
+.terms-and-conditions-text {
   margin-bottom: 24px;
 }
-.privacy-list {
+.terms-and-conditions-list {
   gap: 24px;
 }
-.privacy-item-title {
+.terms-and-conditions-item-title {
   margin-bottom: 24px;
 }
-.privacy-list-third-last-item {
+.terms-and-conditions-list-third-last-item {
+  margin-bottom: 24px;
+}
+.terms-and-conditions-list-fourth {
   margin-bottom: 24px;
 }
 }
