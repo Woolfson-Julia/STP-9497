@@ -1,29 +1,75 @@
 .back-link {
-  position: relative;
-  display: inline-block;
-  padding: 4px 8px;
-  margin-top: 32px;
-  border: 1px solid;
-  border-radius: 8px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 16px;
+  width: 288px;
+  height: 40px;
+  background-color: #0f1322;
+  cursor: pointer;
+  color: #f8f8f2;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border cubic-bezier(0.4, 0, 0.2, 1);
 }
-.back-link::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 16px;
-  height: 16px;
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z'/%3E%3C/svg%3E");
-  transition: 300ms ease-in;
-  transition-property: opacity;
-  opacity: 0;
-  animation: slide 500ms linear infinite alternate-reverse both;
-  animation-play-state: paused;
+.back-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #f8f8f2;
 }
-.back-link:hover::before {
-  opacity: 1;
-  animation-play-state: running;
+
+.back-link:active {
+  background-color: #f8f8f2;
+  color: #0f1322;
+  border: 1px solid #0f1322;
+}
+
+.back-link:active .back-svg {
+  fill: #0f1322;
+}
+
+@media screen and (min-width: 1200px) {
+  .back-link {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    top: -30%;
+    transform: translateY(-50%);
+    width: 140px;
+    background-color: #f8f8f2;
+    color: #0f1322;
+    border: 1px solid #0f1322;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .back-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #0f1322;
+  }
+  .back-link:hover,
+  .back-link:active {
+    background-color: #0f1322;
+    color: #f8f8f2;
+  }
+  .back-link:hover .back-svg,
+  .back-link:active .back-svg {
+    fill: #f8f8f2;
+  }
+  .back-link:active {
+  background-color: #f8f8f2;
+  color: #0f1322;
+  border: 1px solid #0f1322;
+}
+
+.back-link:active .back-svg {
+  fill: #0f1322;
+}
 }
