@@ -62,7 +62,22 @@
   opacity: 0.5;
   pointer-events: none;
   cursor: default;
-  color:#808080;
+  color: #808080;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .player-testimonials-item-prev:hover svg,
+  .player-testimonials-item-next:hover svg {
+    fill: #606580;
+  }
+  .player-testimonials-item-prev:active svg,
+  .player-testimonials-item-next:active svg {
+    fill: #0f1322;
+  }
+  .player-testimonials-item-prev.is-disabled svg,
+  .player-testimonials-item-next.is-disabled svg {
+    fill: #808080;
+  }
 }
 
 @media screen and (min-width: 1200px) {

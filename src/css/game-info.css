@@ -77,7 +77,20 @@
   cursor: default;
   color: #808080;
 }
-
+@media (hover: hover) and (pointer: fine) {
+  .game-info-item-prev:hover svg,
+  .game-info-item-next:hover svg {
+    fill: #606580;
+  }
+  .game-info-item-prev:active svg,
+  .game-info-item-next:active svg {
+    fill: #0f1322;
+  }
+  .game-info-item-prev.is-disabled svg,
+  .game-info-item-next.is-disabled svg {
+    fill: #808080;
+  }
+}
 @media screen and (min-width: 1200px) {
   .game-info-title {
     font-size: 48px;
@@ -89,9 +102,9 @@
     text-align: center;
     line-height: 1.25;
   }
-.game-info-list {
-  justify-content: center;
-}
+  .game-info-list {
+    justify-content: center;
+  }
   .game-info-item {
     align-items: center;
     justify-content: center;
