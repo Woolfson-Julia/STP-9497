@@ -47,7 +47,8 @@
 }
 .cookies-popup button {
   display: flex;
-  width: 276px;
+  width: 100%;
+  height: 48px;
   padding: 16px 24px;
   justify-content: center;
   align-items: center;
@@ -78,6 +79,7 @@
 .decline-cookies-btn:hover,
 .decline-cookies-btn:active {
   border: 2px solid #f8a1a9;
+  padding: 15px 23px;
 }
 
 @media screen and (min-width: 1200px) {
