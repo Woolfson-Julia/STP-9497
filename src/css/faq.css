@@ -18,7 +18,7 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 100% */
+  line-height: 1;
 }
 
 .faq-accordion {
@@ -65,7 +65,7 @@
   color: #f8f8f2;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   text-align: left;
 }
 
@@ -76,7 +76,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   display: none;
 }
 
