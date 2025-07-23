@@ -93,5 +93,10 @@
     background-color: #0f1322;
     color: #f8f8f2;
   }
+  .header-nav-link:focus-visible {
+    color: #767673;
+    outline: none;
+    text-shadow: 0.2px 0 currentColor, -0.2px 0 currentColor;
+  }
 }
 /*===================== Header Media 1200 ======================*/
