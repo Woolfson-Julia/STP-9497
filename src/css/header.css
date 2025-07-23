@@ -1,11 +1,14 @@
 /*=================== Header Mobile =========================*/
 .section-header {
-  position: absolute;
+  position: fixed;
+  z-index: 99999;
   width: 100%;
   z-index: 99;
   padding-top: 14px;
   padding-bottom: 0;
-  background-color: transparent;
+  background-color: #f8f8f2;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .container-header {
   display: flex;
@@ -43,6 +46,8 @@
 @media screen and (min-width: 1200px) {
   .section-header {
     padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f8f8f2;
   }
   .container-header {
     justify-content: center;
@@ -74,11 +79,13 @@
   }
   .header-nav-item {
     color: #0f1322;
+    background-color: #f8f8f2;
     border: 1px solid #0f1322;
     padding: 10px 24px;
     width: max-content;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 44px;
   }
 
   .header-nav-item:hover,
