@@ -1,0 +1,45 @@
+
+
+
+
+/*=================== Header Mobile =========================*/
+.section-header-page {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  z-index: 99;
+  padding-top: 14px;
+  padding-bottom: 0;
+  background-color: #f8f8f2;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.container-header-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-header-page {
+  display: flex;
+}
+
+.header-btn-icon-page {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+
+
+/*===================== Header Mobile ==========================*/
+
+/*===================== Header Media 1200 ======================*/
+@media screen and (min-width: 1200px) {
+.section-header-page {
+  display: none;
+}
+}
+/*===================== Header Media 1200 ======================*/
