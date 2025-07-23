@@ -31,8 +31,8 @@
   flex-shrink: 0;
   aspect-ratio: 160/63;
   background-image: image-set(
-    url('../img/hero/hero-mobile@1x.png') 1x,
-    url('../img/hero/hero-mobile@2x.png') 2x
+    url('../img/hero/hero-mobile@1x.png') type('image/png') 1x,
+    url('../img/hero/hero-mobile@2x.png') type('image/png') 2x
   );
   background-position: center center;
   background-repeat: no-repeat;
@@ -85,16 +85,16 @@
     padding-top: 12px;
 
     background-image: image-set(
-        url('../img/hero/hero-decoration-left@1x.png') 1x,
-        url('../img/hero/hero-decoration-left@2x.png') 2x
+        url('../img/hero/hero-decoration-left@1x.png') type('image/png') 1x,
+        url('../img/hero/hero-decoration-left@2x.png') type('image/png') 2x
       ),
       image-set(
-        url('../img/hero/hero-desktop@1x.png') 1x,
-        url('../img/hero/hero-desktop@2x.png') 2x
+        url('../img/hero/hero-desktop@1x.png') type('image/png') 1x,
+        url('../img/hero/hero-desktop@2x.png') type('image/png') 2x
       ),
       image-set(
-        url('../img/hero/hero-decoration-right@1x.png') 1x,
-        url('../img/hero/hero-decoration-right@2x.png') 2x
+        url('../img/hero/hero-decoration-right@1x.png') type('image/png') 1x,
+        url('../img/hero/hero-decoration-right@2x.png') type('image/png') 2x
       );
     background-position: 88px 148px, center 360px, 873px 148px;
     background-repeat: no-repeat, no-repeat, no-repeat;
