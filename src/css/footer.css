@@ -52,11 +52,6 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-back-to-top-link:active {
-  color: #767673;
-}
-
 .footer-back-to-top-link span {
   display: block;
   font-size: 16px;
@@ -67,12 +62,25 @@
 .footer-back-to-top-link svg {
   fill: #767673;
 }
+.footer-back-to-top-link:active {
+  color: #f8f8f2;
+  border-right: 1px solid #f8f8f2;
+  border-bottom: 1px solid #f8f8f2;
+  border-left: 1px solid #f8f8f2;
+}
+
+.footer-back-to-top-link:active svg {
+  fill: #f8f8f2;
+}
+
 .footer-back-to-top-link:disabled {
   color: #0f1322;
-  stroke: #0f1322;
   border-right: 1px solid #0f1322;
   border-bottom: 1px solid #0f1322;
   border-left: 1px solid #0f1322;
+}
+.footer-back-to-top-link:disabled svg {
+  fill: #0f1322;
 }
 
 .footer-links {
@@ -190,6 +198,16 @@
   }
   .footer-back-to-top-link {
     width: 161px;
+  }
+  .footer-back-to-top-link:active {
+    color: #767673;
+    border-right: 1px solid #767673;
+    border-bottom: 1px solid #767673;
+    border-left: 1px solid #767673;
+  }
+
+  .footer-back-to-top-link:active svg {
+    fill: #767673;
   }
   .footer-links {
     margin-bottom: 44px;
