@@ -1,0 +1,122 @@
+.cookies-policy-section {
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.cookies-policy-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cookies-policy-title {
+  position: relative;
+  z-index: 1;
+  font-family: 'Iceberg', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 0.75;
+  letter-spacing: 0.01em;
+  color: #131734;
+  margin-bottom: 76px;
+}
+.cookies-policy-title::before {
+  content: '';
+  position: absolute;
+  top: -53px;
+  left: 8px;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 128px;
+  background-image: url('../img/pages-c.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+.cookies-policy-text {
+  letter-spacing: 0.01em;
+  color: #0f1322;
+  margin-bottom: 16px;
+}
+.cookies-policy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #0f1322;
+}
+.cookies-policy-item-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0f1322;
+  margin-bottom: 16px;
+}
+.cookies-policy-list-second li {
+  position: relative;
+  padding-left: 24px;
+}
+.cookies-policy-list-second li::before {
+  content: '•';
+  position: absolute;
+  left: 0.5em;
+  top: -0.15em;
+  color: #0f1322;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.cookies-policy-list-third li {
+  position: relative;
+  padding-left: 24px;
+}
+.cookies-policy-list-third li::before {
+  content: '•';
+  position: absolute;
+  left: 0.5em;
+  top: 0;
+  color: #0f1322;
+  font-size: 1em;
+  line-height: 1.5;
+}
+.cookies-policy-list-fourth li {
+  position: relative;
+  padding-left: 24px;
+}
+.cookies-policy-list-fourth li::before {
+  content: '•';
+  position: absolute;
+  left: 0.5em;
+  top: 0;
+  color: #00f;
+  font-size: 1em;
+  line-height: 1.5;
+}
+.cookies-policy-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #00f;
+}
+.cookies-policy-list-third-last-item {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .cookies-policy-section {
+    padding-top: 116px;
+    padding-bottom: 64px;
+  }
+  .cookies-policy-title {
+    margin-bottom: 92px;
+  }
+  .cookies-policy-text {
+    margin-bottom: 24px;
+  }
+  .cookies-policy-list {
+    gap: 24px;
+  }
+  .cookies-policy-item-title {
+    margin-bottom: 24px;
+  }
+  .cookies-policy-list-third-last-item {
+    margin-bottom: 24px;
+  }
+}
