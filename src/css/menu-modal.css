@@ -51,6 +51,7 @@
 .modal-btn-close {
   background-color: transparent;
   border: none;
+  padding: 0;
 }
 
 .modal-btn-logo {
