@@ -1,4 +1,4 @@
-.back-link {
+/* .back-link {
   position: fixed;
   bottom: 20px;
   left: 50%;
@@ -18,9 +18,9 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.back-svg {
+/* .back-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #f8f8f2;
 }
@@ -33,16 +33,24 @@
 
 .back-link:active .back-svg {
   fill: #0f1322;
-}
+} */
 
 @media screen and (min-width: 1200px) {
   .back-link {
+    z-index: 99999;
     position: absolute;
     bottom: auto;
     left: 0;
     top: -30%;
     transform: translateY(-50%);
     width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
     background-color: #f8f8f2;
     color: #0f1322;
     border: 1px solid #0f1322;
@@ -52,6 +60,7 @@
   }
 
   .back-svg {
+    margin-top: 2px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #0f1322;
   }
@@ -65,12 +74,12 @@
     fill: #f8f8f2;
   }
   .back-link:active {
-  background-color: #f8f8f2;
-  color: #0f1322;
-  border: 1px solid #0f1322;
-}
+    background-color: #f8f8f2;
+    color: #0f1322;
+    border: 1px solid #0f1322;
+  }
 
-.back-link:active .back-svg {
-  fill: #0f1322;
-}
+  .back-link:active .back-svg {
+    fill: #0f1322;
+  }
 }
