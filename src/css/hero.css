@@ -16,14 +16,14 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  line-height: 56px; /* 116.667% */
+  line-height: 1.17;
 }
 .hero-subtitle {
   margin-bottom: 0;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 133.333% */
+  line-height: 1.33;
 }
 .hero-bg-wrapper {
   width: 320px;
@@ -55,7 +55,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
 }
 .hero-link:hover,
 .hero-link:active,
@@ -69,7 +69,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
 }
 
 @media screen and (min-width: 1200px) {
@@ -106,14 +106,14 @@
   .hero-title {
     margin-bottom: 24px;
     font-size: 64px;
-    line-height: 64px; /* 100% */
+    line-height: 1;
   }
   .hero-subtitle {
     margin-bottom: 172px;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 100% */
+    line-height: 1;
   }
   .hero-content-wrapper {
     width: 100%;
