@@ -1,5 +1,5 @@
 const sections = document.querySelectorAll('section[id]');
-const navItems = document.querySelectorAll('[data-header]');
+const navLinks = document.querySelectorAll('[data-header-link]');
 
 function onScrollSpy() {
   const scrollY = window.scrollY;
@@ -10,13 +10,12 @@ function onScrollSpy() {
     const sectionId = section.getAttribute('id');
 
     if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-      navItems.forEach(item => {
-        const link = item.querySelector('.header-nav-link');
+      navLinks.forEach(link => {
         const href = link.getAttribute('href');
         if (href === `#${sectionId}`) {
-          item.classList.add('is-active');
+          link.setAttribute('data-active', 'true');
         } else {
-          item.classList.remove('is-active');
+          link.removeAttribute('data-active');
         }
       });
     }
