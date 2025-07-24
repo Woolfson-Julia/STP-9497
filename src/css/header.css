@@ -88,9 +88,9 @@
     background-color: #f8f8f2;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      scroll-behavior: smooth;
+    scroll-behavior: smooth;
   }
-    .header-nav-link:hover,
+  .header-nav-link:hover,
   .header-nav-link:focus {
     background-color: #0f1322;
     color: #f8f8f2;
@@ -100,9 +100,9 @@
     outline: none;
     text-shadow: 0.2px 0 currentColor, -0.2px 0 currentColor;
   }
-[data-header-link][data-active] {
-  background-color: #0f1322;
-  color: #f8f8f2;
-}
+  [data-header-link][data-active] {
+    background-color: #0f1322;
+    color: #f8f8f2;
+  }
 }
 /*===================== Header Media 1200 ======================*/
