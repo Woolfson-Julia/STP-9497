@@ -94,9 +94,13 @@
     align-items: center;
     gap: 24px;
     flex-shrink: 0;
+    background-image: -webkit-image-set(
+      url('../img/cookies-modal/cookies-modal@1x.png') 1x,
+      url('../img/cookies-modal/cookies-modal@2x.png') 2x
+    );
     background-image: image-set(
-      url('../img/cookies-modal/cookies-modal@1x.png') type('image/png') 1x,
-      url('../img/cookies-modal/cookies-modal@2x.png') type('image/png') 2x
+      url('../img/cookies-modal/cookies-modal@1x.png') 1x,
+      url('../img/cookies-modal/cookies-modal@2x.png') 2x
     );
     background-position: calc(100vw - 80px - 239px) 64px;
     background-repeat: no-repeat;
