@@ -86,6 +86,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 44px;
+    scroll-behavior: smooth;
   }
 
   .header-nav-item:hover,
@@ -99,8 +100,8 @@
     text-shadow: 0.2px 0 currentColor, -0.2px 0 currentColor;
   }
   .header-nav-item.is-active {
-  background-color: #0f1322;
-  color: #f8f8f2;
-}
+    background-color: #0f1322;
+    color: #f8f8f2;
+  }
 }
 /*===================== Header Media 1200 ======================*/
