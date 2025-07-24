@@ -1,7 +1,7 @@
 const openBtnEl = document.querySelector('[data-action="open"]');
 const closeBtnEl = document.querySelector('[data-action="close"]');
 const burgerMenuEl = document.querySelector('[data-visible]');
-const navItems = document.querySelectorAll('[data-nav]');
+const navModalLink = document.querySelectorAll('[data-modal-link]');
 const scrollLinks = document.querySelectorAll('[data-scroll]');
 
 
@@ -11,7 +11,7 @@ openBtnEl.addEventListener('click', () => {
 
 closeBtnEl.addEventListener('click', () => {
   burgerMenuEl.dataset.visible = 'close';
-  navItems.forEach(item => item.classList.remove('is-active'));
+  navModalLink.forEach(item => item.removeAttribute('data-active'));
 });
 
 scrollLinks.forEach(link => {
@@ -21,14 +21,11 @@ scrollLinks.forEach(link => {
     // Закрываем меню
     burgerMenuEl.dataset.visible = 'close';
 
-    // Снимаем подсветку со всех пунктов
-    navItems.forEach(item => item.classList.remove('is-active'));
+    // Убираем активное состояние у всех ссылок
+    navModalLink.forEach(item => item.removeAttribute('data-active'));
 
-    // Подсвечиваем родительский пункт выбранной ссылки
-    const parentNavItem = link.closest('[data-nav]');
-    if (parentNavItem) {
-      parentNavItem.classList.add('is-active');
-    }
+    // Добавляем активное состояние к выбранной ссылке
+    link.setAttribute('data-active', 'true');
 
     // Плавно скроллим к секции
     const sectionId = link.getAttribute('href');
